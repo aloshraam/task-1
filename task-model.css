@@ -1,0 +1,155 @@
+
+/* try to do the margin fixed at top thing next time */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: rgb(45, 32, 32);
+    /* background-color: rgba(45, 32, 32, 1); */
+    position: fixed;
+    width: 100%;
+    transition-delay: 150ms;
+}
+
+header:hover{
+    background-color: white;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+header:hover a{
+    color: rgb(45, 32, 32);
+}
+
+.nav-bar a{
+    /* display: flex; */
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition-delay: 150ms
+}
+
+.nav-bar a:hover {
+    color: rgb(255, 171, 3);
+}
+
+
+#img-section img{
+    margin-top: 90px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.benz{
+    width: 100%;
+    height: 262px;
+    background-color: rgb(255, 240, 209);
+}
+
+.benz h1{
+    text-align: center;
+    font-size: 200px;
+    font-family: serif;
+    padding-top: 2rem;
+}
+
+
+#vehicles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgb(255, 240, 209);
+}
+
+
+.car-card {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 2rem); /* To fit two cards per row, minus the gap */
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+
+.card-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.car-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#about{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: rgb(255, 240, 209);
+}
+
+.history-content h1{
+    font-size: 70px;
+    color: rgb(70, 56, 56);
+}
+
+.history-content p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.history-img img{
+    width: 1000px;
+}
+
+footer {
+    width: 100%;
+    background-color:rgb(45, 32, 32);
+    height: 200px;
+    padding: 2rem;
+}
+
+.para{
+    color: white;
+    padding: 1rem;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+}
+
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.icon{
+    color: white;
+    font-size: 30px;
+}
+
+
